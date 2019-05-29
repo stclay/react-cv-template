@@ -138,7 +138,11 @@
     .sidebar-wrapper {
         position: static;
         width: inherit;
-        min-height: 400px;
+        min-height: 440px;
         max-height: 300px;
+    }
+
+    .interests-container, .education-container, .languages-container, .contact-list li:last-child {
+        visibility: hidden;
     }
 }
