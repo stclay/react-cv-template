@@ -1,0 +1,144 @@
+.sidebar-wrapper {
+    background: #196193;
+    position: absolute;
+    right: 0;
+    width: 260px;
+    height: 100%;
+    min-height: 930px;
+    color: #fff;
+}
+
+.sidebar-wrapper a {
+    color: #fff;
+}
+
+.sidebar-wrapper .profile-container {
+    padding: 20px 10px;
+    background: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #fff;
+}
+
+.sidebar-wrapper .name {
+    background-color: #144D75;
+    color:  white;
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.sidebar-wrapper .tagline {
+    background-color: #144D75;
+    color:  white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.sidebar-wrapper .profile {
+    margin-bottom: 15px;
+}
+
+.sidebar-wrapper .contact-list .fa {
+    margin-right: 5px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.sidebar-wrapper .contact-list li {
+    margin-bottom: 15px;
+}
+
+.sidebar-wrapper .contact-list li:last-child {
+    margin-bottom: 0;
+}
+
+.sidebar-wrapper .contact-list .email .fa {
+    font-size: 16px;
+}
+
+.sidebar-wrapper .container-block {
+    padding: 20px 30px 10px;
+}
+
+.sidebar-wrapper .container-block-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.sidebar-wrapper .degree {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.sidebar-wrapper .education-container .item {
+    margin-top: 0;
+}
+
+.sidebar-wrapper .education-container .item:last-child {
+    margin-bottom: 0;
+}
+
+.sidebar-wrapper .education-container .meta {
+    color: rgba(255, 255, 255, 0.95);
+    font-style: oblique;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+
+.sidebar-wrapper .education-container .time {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.sidebar-wrapper .href-text {
+    padding-left: 5px;
+    position: relative;
+    top: 2px;
+}
+
+.sidebar-wrapper .languages-container .lang-desc {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.sidebar-wrapper .languages-list {
+    margin-bottom: 0;
+}
+
+.sidebar-wrapper .languages-list li {
+    margin-bottom: 10px;
+}
+
+.sidebar-wrapper .languages-list li:last-child {
+    margin-bottom: 0;
+}
+
+.sidebar-wrapper .interests-list {
+    margin-bottom: 0;
+}
+
+/* .sidebar-wrapper .interests-list li {
+    margin-bottom: 10px;
+} */
+
+.sidebar-wrapper .interests-list li:last-child {
+    margin-bottom: 0;
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+    .sidebar-wrapper {
+        position: static;
+        width: inherit;
+        min-height: 400px;
+        max-height: 300px;
+    }
+}

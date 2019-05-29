@@ -1,0 +1,19 @@
+
+.main-wrapper .project-title {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.main-wrapper .projects-section .intro {
+    margin-bottom: 30px;
+}
+
+.main-wrapper .projects-section .item {
+    margin-bottom: 15px;
+}
+
+#projects > div.projects > div {
+    margin-top: 60px;
+}

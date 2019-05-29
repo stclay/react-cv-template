@@ -1,15 +1,17 @@
 import profile from './profile';
 import careerProfile from './careerProfile';
-import experiences from './experiences';
+import experience from './experience';
 import projects from './projects';
-import tags from './tags';
+import skills from './skills';
+import testimonials from './testimonials';
 
 export const data = {
   profile,
   careerProfile,
-  experiences,
+  experience,
   projects,
-  tags
+  skills,
+  testimonials
 };
 
 export default data;

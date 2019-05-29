@@ -1,0 +1,50 @@
+header {
+    background-color: #756614;
+    background: rgba(117, 102, 20, .8);
+    color: #FFF;
+    height: 100%;
+    width: 100%;
+}
+
+header>ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+@media only screen and (min-width: 710px) {
+
+header ul li:nth-child(2) {
+    margin-right: 50px;
+   margin-left: 7px;
+   }
+}
+header li {
+    display: inline-block;
+    margin: 20px 20px 5px 20px;
+    width: 4em;
+}
+
+header li a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+header li a:hover,
+header li a:active {
+    color: lightpink;
+    font-style: italic;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 710px) {
+    header li {
+        display: block;
+    }
+
+    header ul li:first-child {
+        padding-top: 20px;
+    }
+}

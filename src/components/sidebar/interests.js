@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-export default class LanguageDetails extends Component {
-  renderListItem(item) {
+export default class Interests extends Component {
+  renderListItem(item, key) {
     return (
-      <li>
+      <li key={item}>
         {item}
       </li>
     );
   }
   render() {
     return (
-      <div className="languages-container container-block">
+      <div className="interests-container container-block">
         <h2 className="container-block-title">{this.props.title || 'Interests'}</h2>
         <ul className="list-unstyled interests-list">
           {this.props.list.map((item) => {
@@ -23,7 +23,7 @@ export default class LanguageDetails extends Component {
   }
 }
 
-LanguageDetails.propTypes = {
+Interests.propTypes = {
   list: PropTypes.arrayOf(PropTypes.string).isRequired,
   title: PropTypes.string.isRequired
 };

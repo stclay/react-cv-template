@@ -1,0 +1,12 @@
+.item {
+    margin-top: 30px;
+}
+
+.tech {
+    font-style: italic;
+}
+
+.main-wrapper .experience-section .item {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}

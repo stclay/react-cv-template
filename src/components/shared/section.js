@@ -5,10 +5,10 @@ export default class Section extends Component {
   render() {
     return (
       <section className={`section ${this.props.className || ''}`} id={this.props.id || null}>
-        <h2 className="section-title">
+        <h1 className="section-title">
           <i className={`fa fa-${this.props.icon}`} />
           { this.props.title }
-        </h2>
+        </h1>
         { this.props.children }
       </section>
     );
